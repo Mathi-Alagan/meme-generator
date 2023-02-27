@@ -7,7 +7,7 @@ export default function() {
     const [meme, setMeme] = useState({
         topText: "",
         bottomText: "",
-        randomImage: ""
+        randomImage: "https://i.imgflip.com/30b1gx.jpg"
     })
 
     const [allMemes, setAllMemes] = useState([])
